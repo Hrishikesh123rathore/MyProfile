@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hrishikesh Rathore</title>
+	<link rel="stylesheet" type="text/css" href="nav.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="pro.css">
+	<link href="https://fonts.googleapis.com/css?family=Marcellus+SC&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Rajdhani&display=swap" rel="stylesheet">
+
+	<!--###############script for graph###############-->	
+
+<script>
+window.onload = function () {
+	
+var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+	backgroundColor:  'transparent',
+	title:{
+		text:"SKILLS"
+	},
+	axisX:{
+		interval: 1,
+		  tickColor: "red",
+        tickLength: 5,
+        tickThickness: 2
+	},
+	axisY2:{
+		gridColor:'transparent',
+		tickColor: "red",
+        tickLength: 5,
+        tickThickness: 2
+		
+	},
+	data: [{
+		type: "bar",
+		name: "Computer Languages",
+		axisYType: "secondary",
+		color: "#333333",
+		dataPoints: [
+			{ y: 43, label: "C#"  },
+			{ y: 52, label: "Java" },
+			{ y: 58, label: "Javascript" },
+			{ y: 76, label: "C++" },
+			{ y: 79, label: "CSS" },
+			{ y: 86, label: "HTML" },
+			{ y: 91, label: "C" },
+			
+		]
+	}]
+});
+chart.render();
+
+}
+</script>
+
+</head>
+
+<body id="Home">
+	<!--############navbar#############-->
+
+	<header>
+		<div class="logo"><h1>
+			
+				<span>H</span>
+				<span>R</span>
+				<span>I</span>
+				<span>S</span>
+				<span>H</span>
+				<span>I</span>
+				<span>K</span>
+				<span>E</span>
+				<span>S</span>
+				<span>H</span>
+
+
+		</h1></div>
+		<nav>
+			<ul>
+				<li><a href="#Home" class="active">Home</a></li>
+				<li><a href="resume.pdf">Resume</a></li>
+				<li><a href="https://github.com/Hrishikesh123rathore?tab=repositories">Projects</a></li>
+				<li><a href="https://hrishi-s-blog.webnode.com/">Blog</a></li>
+				<li><a href="#cont">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i></div>
+	</header>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.menu-toggle').click(function(){
+				$('nav').toggleClass('active')
+			})
+		})
+
+	</script>
+
+
+<!--###############images##############-->
+
+<div class="rowimg">
+	<div class="columnimg">
+	<img class="img1" src="logo3.jpg">
+	</div>
+
+	<div class="columnimg">
+	<img class="img2" src="img1.png" > 
+	
+</div></div>
+
+<!--#############content###############-->
+
+<h1>Hrishikesh Rathore</h1>
+
+<h2 class="head">Skilled Engineer</h2>
+
+<hr>
+
+<p class="para">"I am an energetic and imaginative student in the field of Information Technology and Web Development who possesses a Strong Analytical Aptitude. Being Creative , show an Ability to think Logically and have good problem solving skills. I am a good team player and show attention to details.
+have strong desire for organisation and strong time management skills."</p>
+
+<hr>
+
+<h2 class="head">Education</h2>
+
+<hr>
+
+<div class="edu">
+
+	<h2><b>SSC (10th)</b></h2>
+	<p>M. M. P. H. S. School, Bagh</p>
+	<p><b>7.0 CGPA (CBSE)</b></p>
+	<br>
+
+	<h2><b>HSC (12th)</b></h2>
+	<p>Shri C. K. Chandel School, Dhar</p>
+	<p><b>83.60% (CBSE)</b></p>
+	<br>
+
+	<h2><b>Integrated M.Tech (IT)</b></h2>
+	<p>IIPS-DAVV Indore</p>
+	<p><b>8 (3rd sem)</b></p>
+	<br>
+</div>
+
+<h2 class="head">Skill-set</h2>
+
+<hr>
+
+<div id="chartContainer" style="height: 250px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+<hr>
+
+<h2 class="head">Contact</h2>
+
+<div class="contact" id="cont">
+	<div class="sign"><img src="signature.png"></div>
+	<h4>Hrishikesh Rathore</h4>
+	<h4>E-mail: kuuuu33@gmail.com</h4>
+	<h4>Contact Number: 7999084076</h4>
+	<footer>copyrights: Hrishikesh Rathore</footer>
+
+</div>
+
+
+</body>
+</html>
